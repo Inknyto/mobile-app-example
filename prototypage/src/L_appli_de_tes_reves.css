@@ -1,0 +1,70 @@
+body{
+    width: 350px;
+    height: 841px;
+    overflow: hidden;
+    scrollbar-width: none;
+    z-index: -100;
+}
+#Bell_fill{
+    top: 68.2%;
+    z-index: 1000;
+    position: absolute;
+    left: 25%;
+}
+#login-img{
+    height: 97%;
+    width: 106%;
+    position: absolute;
+    bottom: 45px;
+    right: -6px;
+    border-radius: 85px;
+}
+
+.container{
+    overflow-x: auto;
+    white-space: nowrap;
+    margin-top: 36px;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+
+}
+
+.container::-webkit-scrollbar {
+    width: 0; /* Hide the scrollbar in WebKit-based browsers (Chrome, Safari, Edge) */
+}
+
+.container::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Hide the scrollbar thumb in WebKit-based browsers */
+}
+
+.wrapper {
+    margin-top: 100px;
+    height: 523.6px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+.wrapper::-webkit-scrollbar {
+    width: 0; /* Hide the scrollbar in WebKit-based browsers (Chrome, Safari, Edge) */
+}
+
+.wrapper::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Hide the scrollbar thumb in WebKit-based browsers */
+}
+
+.cards{
+    height: 205px;
+}
+
+.last_cards{
+    height: 35%;
+    overflow-y: hidden;
+}
+
+html, body {
+    transform: scale(0.91);
+    transform-origin: top left; /* Set the origin to the top-left corner */
+    background-size: 297px;
+}
+

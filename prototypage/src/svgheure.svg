@@ -1,0 +1,5 @@
+<svg>
+            <text id="heure" fill="white" x="240" y="191">10</text>
+            <text id="minute" fill="white" x="240" y="191">10</text>
+            <text id="seconde" fill="white" x="240" y="191">10</text>
+</svg>
